@@ -76,10 +76,10 @@
   <h2>2. App 在你的裝置上處理甚麼資料</h2>
   <p>Better Beat 是一個男士私密紀錄 App。為了記錄每一次，App 會在你的裝置上處理以下資料：</p>
   <ul>
-    <li><strong>動作感測器數據</strong>（加速度計、陀螺儀）：在 Apple Watch 上用來計算頻率、次數和停頓。</li>
+    <li><strong>動作感測器數據</strong>（加速度計、陀螺儀）：在 Apple Watch 上用來計算頻率、次數、幅度和停頓。</li>
     <li><strong>心率</strong>：經 Apple「健康」（HealthKit）讀取，只在你授權後才會讀取。</li>
     <li><strong>睡眠</strong>：只有你在設定中開啟「睡眠分析」並授權後，才會從 Apple「健康」讀取，用來比較睡前有紀錄和其他晚上。睡眠數據只在分析時讀取，App 不會儲存副本。</li>
-    <li><strong>紀錄摘要</strong>：每一次的時間、時長、頻率、心率變化、用哪隻手等。原始感測器數據只在記錄期間用於計算，不會儲存。</li>
+    <li><strong>紀錄摘要</strong>：每一次的時間、時長、頻率、幅度（估算）、心率變化、用哪隻手等。原始感測器數據只在記錄期間用於計算，不會儲存。</li>
     <li><strong>設定</strong>：例如是否把紀錄儲存到「健身」。</li>
   </ul>
   <p>這些資料只儲存在你的 iPhone 和 Apple Watch 上的 App 內，並透過 Apple 的連接功能在你自己的兩部裝置之間傳送。分析功能完全在你的 iPhone 上計算。</p>
@@ -137,10 +137,10 @@
 
   <h2>2. What the app processes on your device</h2>
   <ul>
-    <li><strong>Motion sensor data</strong> (accelerometer, gyroscope), used on Apple Watch to work out rate, count and pauses.</li>
+    <li><strong>Motion sensor data</strong> (accelerometer, gyroscope), used on Apple Watch to work out rate, count, amplitude and pauses.</li>
     <li><strong>Heart rate</strong>, read from Apple Health (HealthKit) only after you allow it.</li>
     <li><strong>Sleep</strong>, read from Apple Health only if you turn on Sleep Analysis in Settings and allow it, to compare nights with and without a session beforehand. Sleep data is read when analysing; the app keeps no copy.</li>
-    <li><strong>Session summaries</strong> (time, duration, rate, heart-rate changes, which hand). Raw sensor data is used only to calculate these during a session and is not stored.</li>
+    <li><strong>Session summaries</strong> (time, duration, rate, estimated amplitude, heart-rate changes, which hand). Raw sensor data is used only to calculate these during a session and is not stored.</li>
     <li><strong>Settings</strong>, such as whether to save sessions to Fitness.</li>
   </ul>
   <p>This data is stored only inside the app on your iPhone and Apple Watch, and moves between your own two devices using Apple's connectivity features. Analysis is computed entirely on your iPhone.</p>
