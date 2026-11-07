@@ -78,21 +78,22 @@
   <ul>
     <li><strong>動作感測器數據</strong>（加速度計、陀螺儀）：在 Apple Watch 上用來計算頻率、次數和停頓。</li>
     <li><strong>心率</strong>：經 Apple「健康」（HealthKit）讀取，只在你授權後才會讀取。</li>
-    <li><strong>紀錄摘要</strong>：每一杯的時間、時長、頻率、心率變化等。原始感測器數據只在記錄期間用於計算，不會儲存。</li>
+    <li><strong>睡眠</strong>：只有你在設定中開啟「睡眠分析」並授權後，才會從 Apple「健康」讀取，用來比較睡前有打和沒打的晚上。睡眠數據只在分析時讀取，App 不會儲存副本。</li>
+    <li><strong>紀錄摘要</strong>：每一杯的時間、時長、頻率、心率變化、用哪隻手等。原始感測器數據只在記錄期間用於計算，不會儲存。</li>
     <li><strong>設定</strong>：例如是否把紀錄儲存到「健身」。</li>
   </ul>
   <p>這些資料只儲存在你的 iPhone 和 Apple Watch 上的 App 內，並透過 Apple 的連接功能在你自己的兩部裝置之間傳送。分析功能完全在你的 iPhone 上計算。</p>
 
   <h2>3. Apple「健康」資料</h2>
   <ul>
-    <li>App 只會<strong>讀取</strong>心率，以及在記錄期間建立一個體能訓練工作階段，讓 Apple Watch 可以在背景持續偵測。</li>
+    <li>App 只會<strong>讀取</strong>心率和（如你開啟睡眠分析）睡眠數據，以及在記錄期間建立一個體能訓練工作階段，讓 Apple Watch 可以在背景持續偵測。</li>
     <li>預設情況下，體能訓練<strong>不會</strong>儲存到「健康」或「健身」App。只有你在設定中開啟「儲存到健身」後才會儲存。</li>
     <li>從「健康」取得的資料不會用於廣告或推銷，不會出售，也不會與任何第三方分享。</li>
     <li>你可以隨時在 iPhone 的「設定」&gt;「私隱與保安」&gt;「健康」中更改或撤回授權。</li>
   </ul>
 
   <h2>4. 備份</h2>
-  <p>如果你開啟了 iPhone 的 iCloud 備份或電腦備份，App 內的紀錄會和你其他 App 的資料一樣，包含在由 Apple 管理的裝置備份中。開發者無法存取這些備份。</p>
+  <p>App 內的紀錄<strong>不會</strong>包含在 iCloud 備份或電腦備份中，只存在這部 iPhone 上。因此更換手機時，紀錄不會轉移到新手機。</p>
 
   <h2>5. 購買</h2>
   <p>Pro 訂閱和購買由 Apple 的 App Store 處理。我們不會收到你的姓名、付款資料或 Apple 帳號資料，只會從 Apple 得知你是否擁有 Pro。</p>
@@ -131,23 +132,24 @@
 
   <h2>2. What the app processes on your device</h2>
   <ul>
-    <li><strong>Motion sensor data</strong> (accelerometer, gyroscope), used on Apple Watch to work out pace, count and pauses.</li>
+    <li><strong>Motion sensor data</strong> (accelerometer, gyroscope), used on Apple Watch to work out rate, count and pauses.</li>
     <li><strong>Heart rate</strong>, read from Apple Health (HealthKit) only after you allow it.</li>
-    <li><strong>Session summaries</strong> (time, duration, pace, heart-rate changes). Raw sensor data is used only to calculate these during a session and is not stored.</li>
+    <li><strong>Sleep</strong>, read from Apple Health only if you turn on Sleep Analysis in Settings and allow it, to compare nights with and without a session beforehand. Sleep data is read when analysing; the app keeps no copy.</li>
+    <li><strong>Session summaries</strong> (time, duration, rate, heart-rate changes, which hand). Raw sensor data is used only to calculate these during a session and is not stored.</li>
     <li><strong>Settings</strong>, such as whether to save sessions to Fitness.</li>
   </ul>
   <p>This data is stored only inside the app on your iPhone and Apple Watch, and moves between your own two devices using Apple's connectivity features. Analysis is computed entirely on your iPhone.</p>
 
   <h2>3. Apple Health data</h2>
   <ul>
-    <li>The app only <strong>reads</strong> heart rate, and creates a workout session while recording so Apple Watch can keep tracking in the background.</li>
+    <li>The app only <strong>reads</strong> heart rate and, if you turn on Sleep Analysis, sleep, and creates a workout session while recording so Apple Watch can keep tracking in the background.</li>
     <li>By default the workout is <strong>not</strong> saved to the Health or Fitness app. It is saved only if you turn on "Save to Fitness" in settings.</li>
     <li>Health data is never used for advertising or marketing, never sold, and never shared with third parties.</li>
     <li>You can change or revoke access at any time in iPhone Settings &gt; Privacy &amp; Security &gt; Health.</li>
   </ul>
 
   <h2>4. Backups</h2>
-  <p>If you use iCloud Backup or computer backups, the app's records are included in your device backup, managed by Apple, like other apps' data. The developer cannot access these backups.</p>
+  <p>The app's records are <strong>not</strong> included in iCloud or computer backups; they stay on this iPhone only. This means they don't move to a new phone.</p>
 
   <h2>5. Purchases</h2>
   <p>Pro subscriptions and purchases are handled by Apple's App Store. We do not receive your name, payment details or Apple Account details; we only learn from Apple whether you have Pro.</p>
